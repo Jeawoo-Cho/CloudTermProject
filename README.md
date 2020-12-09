@@ -32,6 +32,17 @@
 ## 프로젝트 개발 결과물
 ![mydiagram](https://user-images.githubusercontent.com/74773343/101609340-353b4600-3a4a-11eb-93a9-4a1ebde81317.PNG)
 
+위 그림과 같이 작동하는 결과물을 구현하는데 성공하였다.
+
+>유저는 aws 클라우드의 해당 서비스가 구동되고 있는 인스턴스의 주소(특정포트)로 접속한다.
+
+>요청을 기다리던 Webmodule이 요청에 대한 응답으로 flask에서 templates 폴더의 myname.html 화면을 웹으로 띄워준다.
+
+>여기서 입력한 정보를 다시 Webmodule로 가져가서 import되어있는 api_call + xml파싱 모듈을 통해 가공한다.
+
+>가공된 데이터를 이용하여 Webmodule이 templates폴더의 search.html에 해당 데이터를 이용하여 html을 작성한다.
+
+>해당 html을 유저의 웹으로 띄워준다.
 
 ## 개발 결과물 사용 방법
 
