@@ -48,14 +48,25 @@
 
 ## 개발 결과물 사용 방법
 ![Sim1](https://user-images.githubusercontent.com/74773343/101612889-7d5c6780-3a4e-11eb-837a-9b5491e10b6c.PNG)
+
 처음 접속하면 위 그림과 같은 웹 화면을 볼 수 있다.
 텍스트 상자에 역이름을 입력하고 요일과 상하행 중에 어떤것을 검색할지 선택한 뒤에 "시간표검색"을 누른다.
 
 
 ![Sim2](https://user-images.githubusercontent.com/74773343/101612902-81888500-3a4e-11eb-924e-b5689a3e9fba.PNG)
+
 위 그림은 평내호평의 시간표를 출력해본 결과이다.
 
 
+![Simul01](https://user-images.githubusercontent.com/74773343/101614794-b85f9a80-3a50-11eb-9381-6c610980c306.PNG)
 
+![Simul02](https://user-images.githubusercontent.com/74773343/101614803-bac1f480-3a50-11eb-8163-5a8c5e1a7a5d.PNG)
+
+![cloud01](https://user-images.githubusercontent.com/74773343/101614816-bd244e80-3a50-11eb-89b9-95f9e05d38bf.PNG)
+
+클라우드로 서비스를 이관하고 접속하여도 잘 작동한다.
+
+마지막은 가상머신에 ssh로 접속하여 서비스를 수행중인 터미널 창의 모습이다.
 
 ## 개발 결과물의 필요성 및 활용방안
+당연하게도 
