@@ -38,9 +38,11 @@
 
 >요청을 기다리던 Webmodule이 요청에 대한 응답으로 flask에서 templates 폴더의 myname.html 화면을 웹으로 띄워준다.
 
->여기서 입력한 정보를 다시 Webmodule로 가져가서 import되어있는 api_call + xml파싱 모듈을 통해 가공한다.
+>여기서 입력한 정보를 다시 Webmodule로 가져가서 import되어있는 api_call + xml파싱 모듈에서 공공데이터서버에 api를 요청한다.
 
->가공된 데이터를 이용하여 Webmodule이 templates폴더의 search.html에 해당 데이터를 이용하여 html을 작성한다.
+>api 요청을 통해 받은 xml데이터를 api_call + xml파싱모듈 에서 가공한다.
+
+>가공된 데이터를 이용하여 Webmodule이 templates폴더의 search.html에 추가 내용을 작성한다.
 
 >해당 html을 유저의 웹으로 띄워준다.
 
